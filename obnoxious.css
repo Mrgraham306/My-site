@@ -39,7 +39,7 @@
 .fontalicious {
   animation-name: fontalicious;
   animation-iteration-count: infinite;
-  animation-duration: .5s;
+  animation-duration: 1s;
 }
 
 /**
