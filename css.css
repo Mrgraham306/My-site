@@ -1,18 +1,21 @@
 body {
-  background-color: #0000ee;
-}
+background: #9CECFB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #01539f, #ffffff, #fcb839);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #01539f, #ffffff, #fcb839); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 
 h1 {
   color: white;
   text-align: center;
 }
+
 p {
   font-family: verdana;
   font-size: 20px;
   color: orange;
 }
-style>
-.dropdown {
+
+style>.dropdown {
   position: relative;
   display: inline-block;
 }
@@ -22,7 +25,7 @@ style>
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
 }
@@ -30,44 +33,60 @@ style>
 .dropdown:hover .dropdown-content {
   display: block;
 }
-</style>
 
-<div class="dropdown">
-  <span>Mouse over me</span>
-  <div class="dropdown-content">
-    <p>Hello World!</p>
-</div>
-div{
-  background:#ffffff;
+</style><div class="dropdown"><span>Mouse over me</span><div class="dropdown-content"><p>Hello World !</p></div>div {
+  background: #ffffff;
   width: 500px;
   height: 10vh;
-  padding:50px;
-  border:10px solid black;
+  padding: 50px;
+  border: 10px solid black;
   border-top: 10px solid magenta;
   border-bottom: 10px solid cyan;
   border-right: 10px solid yellow;
   margin: 50px;
-  margin-left:auto;
-  margin-right:auto;
-  text-align:center;
-  border-radius:50%;
-  box-shadow:0px 0px 100px magenta;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 100px magenta;
 }
-  .div2
-  {
-    background:#ffffff;
-    width: 500px;
-    height: 10vh;
-    padding:50px;
-    border:10px solid black;
-    border-top: 10px solid magenta;
-    border-bottom: 10px solid cyan;
-    border-right: 10px solid yellow;
-    margin: 50px;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-    border-radius:50%;
-    box-shadow:0px 0px 100px yellow;
 
+.div2 {
+  background: #ffffff;
+  width: 500px;
+  height: 10vh;
+  padding: 50px;
+  border: 10px solid black;
+  border-top: 10px solid magenta;
+  border-bottom: 10px solid cyan;
+  border-right: 10px solid yellow;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 100px yellow;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  background: black;
+  color: #fedeaa;
+  box-shadow: 3px 3px 3px #000000
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  background: #ffffff;
+  width: 140px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
 }
