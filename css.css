@@ -74,13 +74,14 @@ ul {
   padding: 0;
 }
 
-a:hover {
-  background: black;
-  color: #fedeaa;
-  box-shadow: 3px 3px 3px #000000
+a:hover {background: url("tile.jpg");
+
+
+  box-shadow: 3px 3px 3px #000000;
 }
 
 a {
+
   color: black;
   text-decoration: none;
   display: block;
