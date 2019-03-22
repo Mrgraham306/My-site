@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>images for and by mitchal not really</title>
+  </head>
+
+  <style>
+.a {
+    filter: blur(0px);
+  }
+.a:hover{filter: blur(5.9px);
+transition: filter .1s;
+    }
+  .b:hover {
+
+    filter: contrast(2000%);
+    transition: filter .5s;
+  }
+  @keyframes a {
+0%{}
+    20% {
+      filter: blur(5.9px);
+    }
+    40% {filter: contrast(2000%);
+
+    }
+    50%{filter: opacity(6%);}
+
+    60% {filter: saturate(400%);
+    }
+    80%{filter: saturate(400%)contrast(2000%)}
+
+  }
+.a:hover
+{
+  animation-name: a;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+
+
+  </style>
+  <body>
+    <img src="w.gif"class="a"/>
+    <img src="me1web.jpg"class="a" />
+    <img src="me2web.jpg"class="a" />
+    <img src="me3web.jpg"class="a" />
+
+  </body>
+</html>
