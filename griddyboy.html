@@ -6,79 +6,116 @@
   <title></title>
 </head>
 <style>
-  .grid {
+  .grid-container {
     width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
-  .nav {
-    background: green; width:80%;
+  .nav {padding:10px;
+    background: green;
+    width: 100%;
   }
 
+  .image {padding:10px;
+
+    background: darkred;
+  }
+
+  .article {padding:10px;
+    background: grey;
+  }
+
+  .bad {padding:10px;
+    background: orange;
+  }
+
+  .sad {padding:10px;
+    background: white;
+  }
 
   body {
     background-color: #878
   }
-
+  img {display: flex;width: 100%;
+    max-width: 100%;
+    height: 100%; }
 
   @media only screen and (min-width: 800px) {
+    img {display: flex;width: 100%;
+      max-width: 100%;
+      height: 100%; }
 
-  .grid-container {
-    grid-gap: 0;
-    display: grid;
-    grid-template-columns: 1fr 1.3fr 0.7fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "nav nav image""sad article article""bad bad bad";
-  }
+    .grid-container {
+      grid-gap: 0;
+      display: grid;
+      grid-template-columns: 100px 1fr 110px;
+      grid-template-rows: 100px 1fr 100px;
+      grid-template-areas: "nav nav image""sad article article""bad bad bad";
+    }
 
-  .nav {
-    grid-area: nav;
-    background: #520;
-    width: ;
-    height: ;
-  }
-.nav:hover{width:81%;
-height: 101%;
-color: white;
-background: black;
-text-align: center;
-justify-content: center;
-align-items: center;
-display:flex;}
-  .image {
-    grid-area: image;
-    background: #410;
-    width: 30%;
-    height: 30%;
-  }
+    .nav {padding:10px;
+      grid-area: nav;
+      background: #520;
+      width: 100%;
+      height: 100%;
+    }
 
-  .sad {
-    grid-area: sad;
-    background: #440;
-    width: 30%;
-    height: 30%;
-  }
+    .nav:hover {
+      width: 101%;
+      height: 101%;
+      color: white;
+      background: black;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
 
-  .article {
-    grid-area: article;
-    background: #421;
-    width: 90%;
-    height: 30%;
-  }
+    .image {
+      grid-area: image;
+      background: #410;
+      width: 100%;
+      height: 100%;
+      padding:10px;
+    }
 
-  .bad {
-    grid-area: bad;
-    background: #425;
-    width: 30%;
-    height: 30%;
-  }
+    .sad {padding:10px;
+      grid-area: sad;
+      background: #440;
+      width: 100%;
+      height: 100%;
+    }
+
+    .article {padding:10px;
+      grid-area: article;
+      background: #421;
+      width: 100%;
+      height: 100%;
+    }
+
+    .bad {padding:10px;
+      grid-area: bad;
+      background: #425;
+      width: 100%;
+      height: 100%;
+    }
   }
 </style>
 
 <body>
   <div class="grid-container">
-    <div class="nav">nav</div>
-    <div class="image">image</div>
-    <div class="sad"></div>
+    <div class="nav"><h1>SEA BORSE LETS G̸̡̨̭͎̙̭̱͇̙͆̂̽̓ͯ̀ͫ̓ͥ͗͒͂͂͊̂͢ͅO̸̵͎̰͇̦̘͉̬͔̣̼̙ͦ̆ͮ͋ͦͤ HORSE SEA</h1> </div>
+    <div class="image">
+      <img src="loser1.png" alt="sea horses can heck you up" />
+    </div>
+    <div class="sad"><p>
+      Seahorse Home</p>
+    <p>Seahorses in the News</p>
+    <p>Seahorse Science</p>
+    <p>Seahorse Fiction</p>
+    <p>Seahorse Fables</p>
+    <p> Seahorse Songs</p></div>
     <div class="article">
 
       <h2> Name</h2>
@@ -104,8 +141,10 @@ display:flex;}
       <h2>Body</h2>
       Unlike most other fish, seahorses have an exoskeleton. Their bodies are made up of hard, external, bony plates that are fused together with a fleshy covering. They do not have scales.
     </div>
-    <div class="bad">bad</div>
-  </div>
+    <div class="bad"><h3><a href="http://www.theseahorsetrust.org/seahorse-facts.aspx
+">The Seahorse Trust |</a> <a href=" http://www.nationalgeographic.com/animals/fish/group/seahorses/
+">National Geographic |</a><a href="http://seahorse.com"> Seahorse.com  |</a><a href="http://www.allthesea.com/Seahorses.html
+"> All the Sea  |</a></h3></div>
 
 
 </body>
