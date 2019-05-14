@@ -1,0 +1,47 @@
+body{background: #e621;}
+h1 {color:white;}
+.grid-container {
+  grid-gap: 0;
+  display: grid;
+  grid-template-columns: 100px 1fr 110px;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas: "nav nav image""sad article article""bad bad bad";
+}
+.nav {padding:10px;
+  grid-area: nav;
+  background: #dad;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.image {
+  grid-area: image;
+  background: #add;
+  width: 100%;
+  height: 100%;
+  padding:10px;
+}
+
+.sad {padding:10px;
+  grid-area: sad;
+  background: #ead;
+  width: 100%;
+  height: 100%;
+}
+
+.article {padding:10px;
+  grid-area: article;
+  background: #dab;
+  width: 100%;
+  height: 100%;
+}
+
+.bad {padding:10px;
+  grid-area: bad;
+  background: #bad;
+  width: 100%;
+  height: 100%;
+}
+}
